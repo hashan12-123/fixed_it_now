@@ -1,0 +1,193 @@
+/* src/Dashboard.css */
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: linear-gradient(135deg, #0b0b0b 50%, #fff200 100%);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .logo1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo1 img {
+    width: 150px;
+    height: 70px;
+    border-radius: 0%;
+  }
+  
+  .sidebar-menu {
+    font-size: large;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .menu-item:hover {
+    background-color: #444;
+  }
+  
+  .content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .stat-card1 {
+    background-color: #fafa06;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+  }
+
+  .stat-card2 {
+    background-color: #d3c16c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+  }
+
+  .stat-card3{
+    background-color: #afd23c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+  }
+
+  .stat-card4 {
+    background-color: #c2c1bd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .stat-card1 h3 {
+    font-size: 24px;
+    margin-top: -20px;
+  }
+
+  .stat-card2 h3 {
+    font-size: 24px;
+    margin-top: -20px;
+  }
+
+  .stat-card3 h3 {
+    font-size: 24px;
+    margin-top: -20px;
+  }
+
+  .stat-card4 h3 {
+    font-size: 24px;
+    margin-top: -20px;
+  }
+
+
+
+  
+  
+  .stat-card p {
+    margin: 5px 0 0;
+  }
+  
+  .stat-card svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .user-activity,
+  .tasks {
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 80px;
+    width: 48%;
+  }
+  
+  .task-chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .task-chart-inner {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .completed {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 255, 0);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    clip-path: circle(32% at 55% 55%);
+  }
+  
+  .ongoing {
+    width: 50%;
+    height: 50%;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    clip-path: circle(25% at 50% 50%);
+  }
+  
