@@ -28,7 +28,6 @@ function Navbar() {
           <div className="dropdown-menu">
             <ul>
               <li>Profile</li>
-              <li>Settings</li>
               <li>Logout</li>
             </ul>
           </div>
