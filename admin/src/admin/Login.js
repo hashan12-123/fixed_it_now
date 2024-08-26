@@ -8,8 +8,6 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Perform login logic here
-    // Redirect to the /dashboard route
     navigate("/dashboard");
   };
 
